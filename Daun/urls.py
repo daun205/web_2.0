@@ -34,5 +34,5 @@ router.register(r'groups', views.GroupViewSet)
 urlpatterns = [
     path('api-v1/', include(router.urls)),
     path('api-auth/', include('rest_framework.urls', namespace='rest_framework')),
-    path('', include('Main.urls'))
+    path('anna/', include('Main.urls'))
 ]
