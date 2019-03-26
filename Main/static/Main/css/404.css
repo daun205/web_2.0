@@ -2,8 +2,14 @@ body{
 	background-color: #2186C4;
 	color: #FFF6E5;
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 }
 
+.mainbody{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;	
+}

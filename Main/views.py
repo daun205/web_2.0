@@ -14,6 +14,11 @@ from django.template import Context
 def index(request):
     return HttpResponse(render(request, "Main/index.html"))
 
+
+def debug404(request):
+    return HttpResponse(render(request, "404.html"))
+
+
 def error404(request, exception, template_name="404.html"):
     response = render_to_response("404.html")
     response.status_code = 404
