@@ -1,0 +1,68 @@
+body{
+}
+
+.carousel img {
+    max-height: 100vh;
+    margin: 0 auto;
+}
+
+.navbar-dark{
+	background-color: rgba(50,50,50,0.3);
+}
+
+
+#customForm{
+	width: 30%;
+	height: 50%;
+	position: absolute;
+	display: flex;
+	background-color: white;
+	top: 20%;
+	left: 10%;
+	border-radius: 10px;
+	box-shadow: 0 16px 40px rgba(0,0,0,0.12);
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.formHead{
+	width: 90%;
+}
+
+.formBody{
+	width: 80%;
+	height: 70%;
+}
+
+.navbar-nav > li{
+  margin-left:15px;
+  margin-right:15px;
+}
+
+.recommendContent{
+	height: 100px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.jumbotron{
+	height: 600px;
+	background-color: rgba(0,0,0,0);
+}
+
+.jumbotron > .container{
+	height: 500px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-image: url("http://files.planetofsuccess.com/blog/wp-content/uploads/2016/08/Short-inspirational-quotes.jpg");
+	background-size:cover;
+}
+
+.white-text{
+	color: white;
+}
