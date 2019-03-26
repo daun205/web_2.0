@@ -14,6 +14,12 @@ from django.template import Context
 def index(request):
     return HttpResponse(render(request, "Main/index.html"))
 
+def error404(request, exception, template_name="404.html"):
+    logging.warning("WTF")
+    response = render_to_response("404.html")
+    response.status_code = 404
+    return response
+
 class UserViewSet(viewsets.ModelViewSet):
     """
     API endpoint that allows users to be viewed or edited.

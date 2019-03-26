@@ -8,3 +8,5 @@ views = Main.views
 urlpatterns = [
     url(r'^$', views.index, name='index'),
 ]
+
+handler404 = views.error404
