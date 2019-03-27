@@ -10,5 +10,4 @@ views = Main.views
 
 urlpatterns = [
     url(r'^$', views.index, name='index'),
-    url(r'^404/$', views.debug404, name='debug404'),
 ]

@@ -9,7 +9,7 @@ from django.shortcuts import render, HttpResponse, HttpResponseRedirect, render_
 from django.views.decorators.csrf import csrf_exempt
 from Main.models import *
 # import requests, json
-from django.template import Context
+# from django.template import Context
 
 def index(request):
     return HttpResponse(render(request, "Main/index.html"))
